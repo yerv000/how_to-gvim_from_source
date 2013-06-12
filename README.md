@@ -2,7 +2,7 @@
 
 This how-to details the steps needed to compile, build and install Vim from source into a user's home directory on a Debian derived distributions (Linux Mint, Ubuntu, etc).
 
-**It is preferable to have a local Ruby installation to be able to link to it**
+**It is preferable to have a local Ruby installation to be able to link to it.**
 
 **All commands are performed from the user's home directory unless otherwise stated.**
 
@@ -111,6 +111,19 @@ Verify installed Vim version:
 $ vim --version
 ~~~
 
+## Running vim
+
+To invoke a terminal based vim session:
+
+~~~ sh
+$ vim
+~~~
+
+To invoke a GUI based vim session also known as gvim:
+
+~~~ sh
+$ gvim
+~~~
 
 ## Deleting Vim installation
 
@@ -122,7 +135,7 @@ $ rm -rf ~/local/vim/*
 
 ## Updating Vim
 
-To completely the locally installed Vim version simply rerun the build script:
+To update the locally installed Vim version simply rerun the build script:
 
 ~~~ sh
 $ ~/src/build_vim.sh
